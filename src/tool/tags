@@ -1,0 +1,306 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Params	main-enfwi-damp.cpp	/^  Params();$/;"	p	class:__anon5::Params	file:	access:public	signature:()
+Params	main-enfwi-damp.cpp	/^Params::Params() {$/;"	f	class:__anon5::Params	signature:()
+Params	main-enfwi-damp.cpp	/^class Params {$/;"	c	namespace:__anon5	file:
+Params	main-essfwi-damp.cpp	/^  Params();$/;"	p	class:__anon2::Params	file:	access:public	signature:()
+Params	main-essfwi-damp.cpp	/^Params::Params() {$/;"	f	class:__anon2::Params	signature:()
+Params	main-essfwi-damp.cpp	/^class Params {$/;"	c	namespace:__anon2	file:
+Params	main-fm-damp.cpp	/^  Params();$/;"	p	class:__anon4::Params	file:	access:public	signature:()
+Params	main-fm-damp.cpp	/^  Params(const Params &);$/;"	p	class:__anon4::Params	file:	access:private	signature:(const Params &)
+Params	main-fm-damp.cpp	/^Params::Params() {$/;"	f	class:__anon4::Params	signature:()
+Params	main-fm-damp.cpp	/^class Params {$/;"	c	namespace:__anon4	file:
+Params	main-noise.cpp	/^  Params();$/;"	p	class:__anon3::Params	file:	access:public	signature:()
+Params	main-noise.cpp	/^  Params(const Params &);$/;"	p	class:__anon3::Params	file:	access:private	signature:(const Params &)
+Params	main-noise.cpp	/^Params::Params() {$/;"	f	class:__anon3::Params	signature:()
+Params	main-noise.cpp	/^class Params {$/;"	c	namespace:__anon3	file:
+Params	main-norm.cpp	/^  Params();$/;"	p	class:__anon1::Params	file:	access:public	signature:()
+Params	main-norm.cpp	/^  Params(const Params &);$/;"	p	class:__anon1::Params	file:	access:private	signature:(const Params &)
+Params	main-norm.cpp	/^Params::Params() {$/;"	f	class:__anon1::Params	signature:()
+Params	main-norm.cpp	/^class Params {$/;"	c	namespace:__anon1	file:
+__anon1::Params	main-norm.cpp	/^class Params {$/;"	c	namespace:__anon1	file:
+__anon1::Params::Params	main-norm.cpp	/^  Params();$/;"	p	class:__anon1::Params	file:	access:public	signature:()
+__anon1::Params::Params	main-norm.cpp	/^  Params(const Params &);$/;"	p	class:__anon1::Params	file:	access:private	signature:(const Params &)
+__anon1::Params::Params	main-norm.cpp	/^Params::Params() {$/;"	f	class:__anon1::Params	signature:()
+__anon1::Params::l1norm	main-norm.cpp	/^  sf_file l1norm;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::l2norm	main-norm.cpp	/^  sf_file l2norm;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::nt	main-norm.cpp	/^  int nt;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::nx	main-norm.cpp	/^  int nx;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::nz	main-norm.cpp	/^  int nz;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::operator =	main-norm.cpp	/^  void operator=(const Params &);$/;"	p	class:__anon1::Params	file:	access:private	signature:(const Params &)
+__anon1::Params::realvel	main-norm.cpp	/^  sf_file realvel;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::velset	main-norm.cpp	/^  sf_file velset;$/;"	m	class:__anon1::Params	file:	access:public
+__anon1::Params::~Params	main-norm.cpp	/^  ~Params();$/;"	p	class:__anon1::Params	file:	access:public	signature:()
+__anon1::Params::~Params	main-norm.cpp	/^Params::~Params() {$/;"	f	class:__anon1::Params	signature:()
+__anon2::Params	main-essfwi-damp.cpp	/^class Params {$/;"	c	namespace:__anon2	file:
+__anon2::Params::Params	main-essfwi-damp.cpp	/^  Params();$/;"	p	class:__anon2::Params	file:	access:public	signature:()
+__anon2::Params::Params	main-essfwi-damp.cpp	/^Params::Params() {$/;"	f	class:__anon2::Params	signature:()
+__anon2::Params::absobjs	main-essfwi-damp.cpp	/^  sf_file absobjs;         \/* absolute values of objective function in iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::amp	main-essfwi-damp.cpp	/^  float amp;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::check	main-essfwi-damp.cpp	/^  void check();$/;"	p	class:__anon2::Params	file:	access:public	signature:()
+__anon2::Params::check	main-essfwi-damp.cpp	/^void Params::check() {$/;"	f	class:__anon2::Params	signature:()
+__anon2::Params::dt	main-essfwi-damp.cpp	/^  float dt;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::dx	main-essfwi-damp.cpp	/^  float dx;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::dz	main-essfwi-damp.cpp	/^  float dz;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::fm	main-essfwi-damp.cpp	/^  float fm;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::gxbeg	main-essfwi-damp.cpp	/^  int gxbeg;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::gzbeg	main-essfwi-damp.cpp	/^  int gzbeg;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::jgx	main-essfwi-damp.cpp	/^  int jgx;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::jgz	main-essfwi-damp.cpp	/^  int jgz;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::jsx	main-essfwi-damp.cpp	/^  int jsx;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::jsz	main-essfwi-damp.cpp	/^  int jsz;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::maxdv	main-essfwi-damp.cpp	/^  float maxdv;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::nb	main-essfwi-damp.cpp	/^  int nb;               \/* size of the boundary *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::ng	main-essfwi-damp.cpp	/^  int ng;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::nita	main-essfwi-damp.cpp	/^  int nita;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::niter	main-essfwi-damp.cpp	/^  int niter;            \/* # of iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::norobjs	main-essfwi-damp.cpp	/^  sf_file norobjs;         \/* normalize values of objective function in iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::ns	main-essfwi-damp.cpp	/^  int ns;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::nt	main-essfwi-damp.cpp	/^  int nt;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::nx	main-essfwi-damp.cpp	/^  int nx;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::nz	main-essfwi-damp.cpp	/^  int nz;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::seed	main-essfwi-damp.cpp	/^  int seed;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::shots	main-essfwi-damp.cpp	/^  sf_file shots;        \/* recorded shots from exact velocity model *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::sxbeg	main-essfwi-damp.cpp	/^  int sxbeg;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::szbeg	main-essfwi-damp.cpp	/^  int szbeg;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::vinit	main-essfwi-damp.cpp	/^  sf_file vinit;        \/* initial velocity model, unit=m\/s *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::vmax	main-essfwi-damp.cpp	/^  float vmax;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::vmin	main-essfwi-damp.cpp	/^  float vmin;$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::vupdates	main-essfwi-damp.cpp	/^  sf_file vupdates;     \/* updated velocity in iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+__anon2::Params::~Params	main-essfwi-damp.cpp	/^  ~Params();$/;"	p	class:__anon2::Params	file:	access:public	signature:()
+__anon2::Params::~Params	main-essfwi-damp.cpp	/^Params::~Params() {$/;"	f	class:__anon2::Params	signature:()
+__anon3::Params	main-noise.cpp	/^class Params {$/;"	c	namespace:__anon3	file:
+__anon3::Params::Params	main-noise.cpp	/^  Params();$/;"	p	class:__anon3::Params	file:	access:public	signature:()
+__anon3::Params::Params	main-noise.cpp	/^  Params(const Params &);$/;"	p	class:__anon3::Params	file:	access:private	signature:(const Params &)
+__anon3::Params::Params	main-noise.cpp	/^Params::Params() {$/;"	f	class:__anon3::Params	signature:()
+__anon3::Params::fac	main-noise.cpp	/^  float fac;$/;"	m	class:__anon3::Params	file:	access:public
+__anon3::Params::ng	main-noise.cpp	/^  int ng;$/;"	m	class:__anon3::Params	file:	access:public
+__anon3::Params::ns	main-noise.cpp	/^  int ns;$/;"	m	class:__anon3::Params	file:	access:public
+__anon3::Params::nt	main-noise.cpp	/^  int nt;$/;"	m	class:__anon3::Params	file:	access:public
+__anon3::Params::operator =	main-noise.cpp	/^  void operator=(const Params &);$/;"	p	class:__anon3::Params	file:	access:private	signature:(const Params &)
+__anon3::Params::shots	main-noise.cpp	/^  sf_file shots;$/;"	m	class:__anon3::Params	file:	access:public
+__anon3::Params::shotsnoise	main-noise.cpp	/^  sf_file shotsnoise;$/;"	m	class:__anon3::Params	file:	access:public
+__anon3::Params::~Params	main-noise.cpp	/^  ~Params();$/;"	p	class:__anon3::Params	file:	access:public	signature:()
+__anon3::Params::~Params	main-noise.cpp	/^Params::~Params() {$/;"	f	class:__anon3::Params	signature:()
+__anon3::addNoise	main-noise.cpp	/^float addNoise(float val, float maxabs, float factor) {$/;"	f	namespace:__anon3	signature:(float val, float maxabs, float factor)
+__anon3::rand01f	main-noise.cpp	/^float rand01f() {$/;"	f	namespace:__anon3	signature:()
+__anon4::Params	main-fm-damp.cpp	/^class Params {$/;"	c	namespace:__anon4	file:
+__anon4::Params::Params	main-fm-damp.cpp	/^  Params();$/;"	p	class:__anon4::Params	file:	access:public	signature:()
+__anon4::Params::Params	main-fm-damp.cpp	/^  Params(const Params &);$/;"	p	class:__anon4::Params	file:	access:private	signature:(const Params &)
+__anon4::Params::Params	main-fm-damp.cpp	/^Params::Params() {$/;"	f	class:__anon4::Params	signature:()
+__anon4::Params::amp	main-fm-damp.cpp	/^  float amp;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::check	main-fm-damp.cpp	/^  void check();$/;"	p	class:__anon4::Params	file:	access:private	signature:()
+__anon4::Params::check	main-fm-damp.cpp	/^void Params::check() {$/;"	f	class:__anon4::Params	signature:()
+__anon4::Params::dt	main-fm-damp.cpp	/^  float dt;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::dx	main-fm-damp.cpp	/^  float dx;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::dz	main-fm-damp.cpp	/^  float dz;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::fm	main-fm-damp.cpp	/^  float fm;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::gxbeg	main-fm-damp.cpp	/^  int gxbeg;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::gzbeg	main-fm-damp.cpp	/^  int gzbeg;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::jgx	main-fm-damp.cpp	/^  int jgx;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::jgz	main-fm-damp.cpp	/^  int jgz;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::jsx	main-fm-damp.cpp	/^  int jsx;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::jsz	main-fm-damp.cpp	/^  int jsz;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::nb	main-fm-damp.cpp	/^  int nb;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::ng	main-fm-damp.cpp	/^  int ng;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::ns	main-fm-damp.cpp	/^  int ns;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::nt	main-fm-damp.cpp	/^  int nt;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::nx	main-fm-damp.cpp	/^  int nx;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::nz	main-fm-damp.cpp	/^  int nz;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::operator =	main-fm-damp.cpp	/^  void operator=(const Params &);$/;"	p	class:__anon4::Params	file:	access:private	signature:(const Params &)
+__anon4::Params::shots	main-fm-damp.cpp	/^  sf_file shots;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::sxbeg	main-fm-damp.cpp	/^  int sxbeg;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::szbeg	main-fm-damp.cpp	/^  int szbeg;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::vinit	main-fm-damp.cpp	/^  sf_file vinit;$/;"	m	class:__anon4::Params	file:	access:public
+__anon4::Params::~Params	main-fm-damp.cpp	/^  ~Params();$/;"	p	class:__anon4::Params	file:	access:public	signature:()
+__anon4::Params::~Params	main-fm-damp.cpp	/^Params::~Params() {$/;"	f	class:__anon4::Params	signature:()
+__anon5::Params	main-enfwi-damp.cpp	/^class Params {$/;"	c	namespace:__anon5	file:
+__anon5::Params::Params	main-enfwi-damp.cpp	/^  Params();$/;"	p	class:__anon5::Params	file:	access:public	signature:()
+__anon5::Params::Params	main-enfwi-damp.cpp	/^Params::Params() {$/;"	f	class:__anon5::Params	signature:()
+__anon5::Params::absobjs	main-enfwi-damp.cpp	/^  sf_file absobjs;         \/* absolute values of objective function in iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::amp	main-enfwi-damp.cpp	/^  float amp;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::check	main-enfwi-damp.cpp	/^  void check();$/;"	p	class:__anon5::Params	file:	access:public	signature:()
+__anon5::Params::check	main-enfwi-damp.cpp	/^void Params::check() {$/;"	f	class:__anon5::Params	signature:()
+__anon5::Params::dt	main-enfwi-damp.cpp	/^  float dt;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::dx	main-enfwi-damp.cpp	/^  float dx;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::dz	main-enfwi-damp.cpp	/^  float dz;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::fm	main-enfwi-damp.cpp	/^  float fm;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::gxbeg	main-enfwi-damp.cpp	/^  int gxbeg;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::gzbeg	main-enfwi-damp.cpp	/^  int gzbeg;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::jgx	main-enfwi-damp.cpp	/^  int jgx;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::jgz	main-enfwi-damp.cpp	/^  int jgz;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::jsx	main-enfwi-damp.cpp	/^  int jsx;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::jsz	main-enfwi-damp.cpp	/^  int jsz;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::k	main-enfwi-damp.cpp	/^  int k;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::maxdv	main-enfwi-damp.cpp	/^  float maxdv;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::nb	main-enfwi-damp.cpp	/^  int nb;               \/* size of the boundary *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::ng	main-enfwi-damp.cpp	/^  int ng;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::nita	main-enfwi-damp.cpp	/^  int nita;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::niter	main-enfwi-damp.cpp	/^  int niter;            \/* # of iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::niterenkf	main-enfwi-damp.cpp	/^  int niterenkf;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::norobjs	main-enfwi-damp.cpp	/^  sf_file norobjs;         \/* normalize values of objective function in iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::np	main-enfwi-damp.cpp	/^  int np;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::ns	main-enfwi-damp.cpp	/^  int ns;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::nsample	main-enfwi-damp.cpp	/^  int nsample;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::nt	main-enfwi-damp.cpp	/^  int nt;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::ntask	main-enfwi-damp.cpp	/^  int ntask; \/\/\/ exactly the # of task each process owns$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::nx	main-enfwi-damp.cpp	/^  int nx;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::nz	main-enfwi-damp.cpp	/^  int nz;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::perin	main-enfwi-damp.cpp	/^  char *perin;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::rank	main-enfwi-damp.cpp	/^  int rank;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::seed	main-enfwi-damp.cpp	/^  int seed;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::shots	main-enfwi-damp.cpp	/^  sf_file shots;        \/* recorded shots from exact velocity model *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::sigfac	main-enfwi-damp.cpp	/^  float sigfac;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::sxbeg	main-enfwi-damp.cpp	/^  int sxbeg;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::szbeg	main-enfwi-damp.cpp	/^  int szbeg;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::vinit	main-enfwi-damp.cpp	/^  sf_file vinit;        \/* initial velocity model, unit=m\/s *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::vmax	main-enfwi-damp.cpp	/^  float vmax;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::vmin	main-enfwi-damp.cpp	/^  float vmin;$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::vupdates	main-enfwi-damp.cpp	/^  sf_file vupdates;     \/* updated velocity in iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+__anon5::Params::~Params	main-enfwi-damp.cpp	/^  ~Params();$/;"	p	class:__anon5::Params	file:	access:public	signature:()
+__anon5::Params::~Params	main-enfwi-damp.cpp	/^Params::~Params() {$/;"	f	class:__anon5::Params	signature:()
+__anon5::calobj	main-enfwi-damp.cpp	/^float calobj(const ForwardModeling &fmMethod, const std::vector<float> wlt,$/;"	f	namespace:__anon5	signature:(const ForwardModeling &fmMethod, const std::vector<float> wlt, std::vector<float> &dobs, int ns, int ng, int nt)
+__anon5::createVelDB	main-enfwi-damp.cpp	/^std::vector<Velocity *> createVelDB(const Velocity &vel, const char *perin, int N, float dx, float dt) {$/;"	f	namespace:__anon5	signature:(const Velocity &vel, const char *perin, int N, float dx, float dt)
+__anon5::gatherVelocity	main-enfwi-damp.cpp	/^void gatherVelocity(std::vector<Velocity *> &totalveldb, const std::vector<Velocity *> &veldb, const Params &params) {$/;"	f	namespace:__anon5	signature:(std::vector<Velocity *> &totalveldb, const std::vector<Velocity *> &veldb, const Params &params)
+__anon5::generateVelSet	main-enfwi-damp.cpp	/^std::vector<float *> generateVelSet(std::vector<Velocity *> &veldb) {$/;"	f	namespace:__anon5	signature:(std::vector<Velocity *> &veldb)
+__anon5::scatterVelocity	main-enfwi-damp.cpp	/^void scatterVelocity(std::vector<Velocity *> &veldb, const std::vector<Velocity *> &totalveldb, const Params &params) {$/;"	f	namespace:__anon5	signature:(std::vector<Velocity *> &veldb, const std::vector<Velocity *> &totalveldb, const Params &params)
+absobjs	main-enfwi-damp.cpp	/^  sf_file absobjs;         \/* absolute values of objective function in iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+absobjs	main-essfwi-damp.cpp	/^  sf_file absobjs;         \/* absolute values of objective function in iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+addNoise	main-noise.cpp	/^float addNoise(float val, float maxabs, float factor) {$/;"	f	namespace:__anon3	signature:(float val, float maxabs, float factor)
+amp	main-enfwi-damp.cpp	/^  float amp;$/;"	m	class:__anon5::Params	file:	access:public
+amp	main-essfwi-damp.cpp	/^  float amp;$/;"	m	class:__anon2::Params	file:	access:public
+amp	main-fm-damp.cpp	/^  float amp;$/;"	m	class:__anon4::Params	file:	access:public
+calParabolaVertex	main-test.cpp	/^static void calParabolaVertex(float x1, float y1, float x2, float y2, float x3, float y3, float &xv, float &yv) {$/;"	f	file:	signature:(float x1, float y1, float x2, float y2, float x3, float y3, float &xv, float &yv)
+calobj	main-enfwi-damp.cpp	/^float calobj(const ForwardModeling &fmMethod, const std::vector<float> wlt,$/;"	f	namespace:__anon5	signature:(const ForwardModeling &fmMethod, const std::vector<float> wlt, std::vector<float> &dobs, int ns, int ng, int nt)
+check	main-enfwi-damp.cpp	/^  void check();$/;"	p	class:__anon5::Params	file:	access:public	signature:()
+check	main-enfwi-damp.cpp	/^void Params::check() {$/;"	f	class:__anon5::Params	signature:()
+check	main-essfwi-damp.cpp	/^  void check();$/;"	p	class:__anon2::Params	file:	access:public	signature:()
+check	main-essfwi-damp.cpp	/^void Params::check() {$/;"	f	class:__anon2::Params	signature:()
+check	main-fm-damp.cpp	/^  void check();$/;"	p	class:__anon4::Params	file:	access:private	signature:()
+check	main-fm-damp.cpp	/^void Params::check() {$/;"	f	class:__anon4::Params	signature:()
+createVelDB	main-enfwi-damp.cpp	/^std::vector<Velocity *> createVelDB(const Velocity &vel, const char *perin, int N, float dx, float dt) {$/;"	f	namespace:__anon5	signature:(const Velocity &vel, const char *perin, int N, float dx, float dt)
+dt	main-enfwi-damp.cpp	/^  float dt;$/;"	m	class:__anon5::Params	file:	access:public
+dt	main-essfwi-damp.cpp	/^  float dt;$/;"	m	class:__anon2::Params	file:	access:public
+dt	main-fm-damp.cpp	/^  float dt;$/;"	m	class:__anon4::Params	file:	access:public
+dx	main-enfwi-damp.cpp	/^  float dx;$/;"	m	class:__anon5::Params	file:	access:public
+dx	main-essfwi-damp.cpp	/^  float dx;$/;"	m	class:__anon2::Params	file:	access:public
+dx	main-fm-damp.cpp	/^  float dx;$/;"	m	class:__anon4::Params	file:	access:public
+dz	main-enfwi-damp.cpp	/^  float dz;$/;"	m	class:__anon5::Params	file:	access:public
+dz	main-essfwi-damp.cpp	/^  float dz;$/;"	m	class:__anon2::Params	file:	access:public
+dz	main-fm-damp.cpp	/^  float dz;$/;"	m	class:__anon4::Params	file:	access:public
+fac	main-noise.cpp	/^  float fac;$/;"	m	class:__anon3::Params	file:	access:public
+fm	main-enfwi-damp.cpp	/^  float fm;$/;"	m	class:__anon5::Params	file:	access:public
+fm	main-essfwi-damp.cpp	/^  float fm;$/;"	m	class:__anon2::Params	file:	access:public
+fm	main-fm-damp.cpp	/^  float fm;$/;"	m	class:__anon4::Params	file:	access:public
+gatherVelocity	main-enfwi-damp.cpp	/^void gatherVelocity(std::vector<Velocity *> &totalveldb, const std::vector<Velocity *> &veldb, const Params &params) {$/;"	f	namespace:__anon5	signature:(std::vector<Velocity *> &totalveldb, const std::vector<Velocity *> &veldb, const Params &params)
+generateVelSet	main-enfwi-damp.cpp	/^std::vector<float *> generateVelSet(std::vector<Velocity *> &veldb) {$/;"	f	namespace:__anon5	signature:(std::vector<Velocity *> &veldb)
+gxbeg	main-enfwi-damp.cpp	/^  int gxbeg;$/;"	m	class:__anon5::Params	file:	access:public
+gxbeg	main-essfwi-damp.cpp	/^  int gxbeg;$/;"	m	class:__anon2::Params	file:	access:public
+gxbeg	main-fm-damp.cpp	/^  int gxbeg;$/;"	m	class:__anon4::Params	file:	access:public
+gzbeg	main-enfwi-damp.cpp	/^  int gzbeg;$/;"	m	class:__anon5::Params	file:	access:public
+gzbeg	main-essfwi-damp.cpp	/^  int gzbeg;$/;"	m	class:__anon2::Params	file:	access:public
+gzbeg	main-fm-damp.cpp	/^  int gzbeg;$/;"	m	class:__anon4::Params	file:	access:public
+jgx	main-enfwi-damp.cpp	/^  int jgx;$/;"	m	class:__anon5::Params	file:	access:public
+jgx	main-essfwi-damp.cpp	/^  int jgx;$/;"	m	class:__anon2::Params	file:	access:public
+jgx	main-fm-damp.cpp	/^  int jgx;$/;"	m	class:__anon4::Params	file:	access:public
+jgz	main-enfwi-damp.cpp	/^  int jgz;$/;"	m	class:__anon5::Params	file:	access:public
+jgz	main-essfwi-damp.cpp	/^  int jgz;$/;"	m	class:__anon2::Params	file:	access:public
+jgz	main-fm-damp.cpp	/^  int jgz;$/;"	m	class:__anon4::Params	file:	access:public
+jsx	main-enfwi-damp.cpp	/^  int jsx;$/;"	m	class:__anon5::Params	file:	access:public
+jsx	main-essfwi-damp.cpp	/^  int jsx;$/;"	m	class:__anon2::Params	file:	access:public
+jsx	main-fm-damp.cpp	/^  int jsx;$/;"	m	class:__anon4::Params	file:	access:public
+jsz	main-enfwi-damp.cpp	/^  int jsz;$/;"	m	class:__anon5::Params	file:	access:public
+jsz	main-essfwi-damp.cpp	/^  int jsz;$/;"	m	class:__anon2::Params	file:	access:public
+jsz	main-fm-damp.cpp	/^  int jsz;$/;"	m	class:__anon4::Params	file:	access:public
+k	main-enfwi-damp.cpp	/^  int k;$/;"	m	class:__anon5::Params	file:	access:public
+l1norm	main-norm.cpp	/^  sf_file l1norm;$/;"	m	class:__anon1::Params	file:	access:public
+l2norm	main-norm.cpp	/^  sf_file l2norm;$/;"	m	class:__anon1::Params	file:	access:public
+main	main-enfwi-damp.cpp	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	main-essfwi-damp.cpp	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	main-fm-damp.cpp	/^int main(int argc, char* argv[]) {$/;"	f	signature:(int argc, char* argv[])
+main	main-noise.cpp	/^int main(int argc, char* argv[]) {$/;"	f	signature:(int argc, char* argv[])
+main	main-norm.cpp	/^int main(int argc, char* argv[]) {$/;"	f	signature:(int argc, char* argv[])
+main	main-test.cpp	/^int main(int argc, char* argv[]) {$/;"	f	signature:(int argc, char* argv[])
+maxdv	main-enfwi-damp.cpp	/^  float maxdv;$/;"	m	class:__anon5::Params	file:	access:public
+maxdv	main-essfwi-damp.cpp	/^  float maxdv;$/;"	m	class:__anon2::Params	file:	access:public
+nb	main-enfwi-damp.cpp	/^  int nb;               \/* size of the boundary *\/$/;"	m	class:__anon5::Params	file:	access:public
+nb	main-essfwi-damp.cpp	/^  int nb;               \/* size of the boundary *\/$/;"	m	class:__anon2::Params	file:	access:public
+nb	main-fm-damp.cpp	/^  int nb;$/;"	m	class:__anon4::Params	file:	access:public
+ng	main-enfwi-damp.cpp	/^  int ng;$/;"	m	class:__anon5::Params	file:	access:public
+ng	main-essfwi-damp.cpp	/^  int ng;$/;"	m	class:__anon2::Params	file:	access:public
+ng	main-fm-damp.cpp	/^  int ng;$/;"	m	class:__anon4::Params	file:	access:public
+ng	main-noise.cpp	/^  int ng;$/;"	m	class:__anon3::Params	file:	access:public
+nita	main-enfwi-damp.cpp	/^  int nita;$/;"	m	class:__anon5::Params	file:	access:public
+nita	main-essfwi-damp.cpp	/^  int nita;$/;"	m	class:__anon2::Params	file:	access:public
+niter	main-enfwi-damp.cpp	/^  int niter;            \/* # of iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+niter	main-essfwi-damp.cpp	/^  int niter;            \/* # of iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+niterenkf	main-enfwi-damp.cpp	/^  int niterenkf;$/;"	m	class:__anon5::Params	file:	access:public
+norobjs	main-enfwi-damp.cpp	/^  sf_file norobjs;         \/* normalize values of objective function in iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+norobjs	main-essfwi-damp.cpp	/^  sf_file norobjs;         \/* normalize values of objective function in iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+np	main-enfwi-damp.cpp	/^  int np;$/;"	m	class:__anon5::Params	file:	access:public
+ns	main-enfwi-damp.cpp	/^  int ns;$/;"	m	class:__anon5::Params	file:	access:public
+ns	main-essfwi-damp.cpp	/^  int ns;$/;"	m	class:__anon2::Params	file:	access:public
+ns	main-fm-damp.cpp	/^  int ns;$/;"	m	class:__anon4::Params	file:	access:public
+ns	main-noise.cpp	/^  int ns;$/;"	m	class:__anon3::Params	file:	access:public
+nsample	main-enfwi-damp.cpp	/^  int nsample;$/;"	m	class:__anon5::Params	file:	access:public
+nt	main-enfwi-damp.cpp	/^  int nt;$/;"	m	class:__anon5::Params	file:	access:public
+nt	main-essfwi-damp.cpp	/^  int nt;$/;"	m	class:__anon2::Params	file:	access:public
+nt	main-fm-damp.cpp	/^  int nt;$/;"	m	class:__anon4::Params	file:	access:public
+nt	main-noise.cpp	/^  int nt;$/;"	m	class:__anon3::Params	file:	access:public
+nt	main-norm.cpp	/^  int nt;$/;"	m	class:__anon1::Params	file:	access:public
+ntask	main-enfwi-damp.cpp	/^  int ntask; \/\/\/ exactly the # of task each process owns$/;"	m	class:__anon5::Params	file:	access:public
+nx	main-enfwi-damp.cpp	/^  int nx;$/;"	m	class:__anon5::Params	file:	access:public
+nx	main-essfwi-damp.cpp	/^  int nx;$/;"	m	class:__anon2::Params	file:	access:public
+nx	main-fm-damp.cpp	/^  int nx;$/;"	m	class:__anon4::Params	file:	access:public
+nx	main-norm.cpp	/^  int nx;$/;"	m	class:__anon1::Params	file:	access:public
+nz	main-enfwi-damp.cpp	/^  int nz;$/;"	m	class:__anon5::Params	file:	access:public
+nz	main-essfwi-damp.cpp	/^  int nz;$/;"	m	class:__anon2::Params	file:	access:public
+nz	main-fm-damp.cpp	/^  int nz;$/;"	m	class:__anon4::Params	file:	access:public
+nz	main-norm.cpp	/^  int nz;$/;"	m	class:__anon1::Params	file:	access:public
+operator =	main-fm-damp.cpp	/^  void operator=(const Params &);$/;"	p	class:__anon4::Params	file:	access:private	signature:(const Params &)
+operator =	main-noise.cpp	/^  void operator=(const Params &);$/;"	p	class:__anon3::Params	file:	access:private	signature:(const Params &)
+operator =	main-norm.cpp	/^  void operator=(const Params &);$/;"	p	class:__anon1::Params	file:	access:private	signature:(const Params &)
+parabolaVertex	main-test.cpp	/^void parabolaVertex(float x1, float y1, float x2, float y2, float x3, float y3, float max_alpha3, float &xv, float &yv) {$/;"	f	signature:(float x1, float y1, float x2, float y2, float x3, float y3, float max_alpha3, float &xv, float &yv)
+perin	main-enfwi-damp.cpp	/^  char *perin;$/;"	m	class:__anon5::Params	file:	access:public
+rand01f	main-noise.cpp	/^float rand01f() {$/;"	f	namespace:__anon3	signature:()
+rank	main-enfwi-damp.cpp	/^  int rank;$/;"	m	class:__anon5::Params	file:	access:public
+realvel	main-norm.cpp	/^  sf_file realvel;$/;"	m	class:__anon1::Params	file:	access:public
+scatterVelocity	main-enfwi-damp.cpp	/^void scatterVelocity(std::vector<Velocity *> &veldb, const std::vector<Velocity *> &totalveldb, const Params &params) {$/;"	f	namespace:__anon5	signature:(std::vector<Velocity *> &veldb, const std::vector<Velocity *> &totalveldb, const Params &params)
+seed	main-enfwi-damp.cpp	/^  int seed;$/;"	m	class:__anon5::Params	file:	access:public
+seed	main-essfwi-damp.cpp	/^  int seed;$/;"	m	class:__anon2::Params	file:	access:public
+shots	main-enfwi-damp.cpp	/^  sf_file shots;        \/* recorded shots from exact velocity model *\/$/;"	m	class:__anon5::Params	file:	access:public
+shots	main-essfwi-damp.cpp	/^  sf_file shots;        \/* recorded shots from exact velocity model *\/$/;"	m	class:__anon2::Params	file:	access:public
+shots	main-fm-damp.cpp	/^  sf_file shots;$/;"	m	class:__anon4::Params	file:	access:public
+shots	main-noise.cpp	/^  sf_file shots;$/;"	m	class:__anon3::Params	file:	access:public
+shotsnoise	main-noise.cpp	/^  sf_file shotsnoise;$/;"	m	class:__anon3::Params	file:	access:public
+sigfac	main-enfwi-damp.cpp	/^  float sigfac;$/;"	m	class:__anon5::Params	file:	access:public
+sxbeg	main-enfwi-damp.cpp	/^  int sxbeg;$/;"	m	class:__anon5::Params	file:	access:public
+sxbeg	main-essfwi-damp.cpp	/^  int sxbeg;$/;"	m	class:__anon2::Params	file:	access:public
+sxbeg	main-fm-damp.cpp	/^  int sxbeg;$/;"	m	class:__anon4::Params	file:	access:public
+szbeg	main-enfwi-damp.cpp	/^  int szbeg;$/;"	m	class:__anon5::Params	file:	access:public
+szbeg	main-essfwi-damp.cpp	/^  int szbeg;$/;"	m	class:__anon2::Params	file:	access:public
+szbeg	main-fm-damp.cpp	/^  int szbeg;$/;"	m	class:__anon4::Params	file:	access:public
+velset	main-norm.cpp	/^  sf_file velset;$/;"	m	class:__anon1::Params	file:	access:public
+vinit	main-enfwi-damp.cpp	/^  sf_file vinit;        \/* initial velocity model, unit=m\/s *\/$/;"	m	class:__anon5::Params	file:	access:public
+vinit	main-essfwi-damp.cpp	/^  sf_file vinit;        \/* initial velocity model, unit=m\/s *\/$/;"	m	class:__anon2::Params	file:	access:public
+vinit	main-fm-damp.cpp	/^  sf_file vinit;$/;"	m	class:__anon4::Params	file:	access:public
+vmax	main-enfwi-damp.cpp	/^  float vmax;$/;"	m	class:__anon5::Params	file:	access:public
+vmax	main-essfwi-damp.cpp	/^  float vmax;$/;"	m	class:__anon2::Params	file:	access:public
+vmin	main-enfwi-damp.cpp	/^  float vmin;$/;"	m	class:__anon5::Params	file:	access:public
+vmin	main-essfwi-damp.cpp	/^  float vmin;$/;"	m	class:__anon2::Params	file:	access:public
+vupdates	main-enfwi-damp.cpp	/^  sf_file vupdates;     \/* updated velocity in iterations *\/$/;"	m	class:__anon5::Params	file:	access:public
+vupdates	main-essfwi-damp.cpp	/^  sf_file vupdates;     \/* updated velocity in iterations *\/$/;"	m	class:__anon2::Params	file:	access:public
+~Params	main-enfwi-damp.cpp	/^  ~Params();$/;"	p	class:__anon5::Params	file:	access:public	signature:()
+~Params	main-enfwi-damp.cpp	/^Params::~Params() {$/;"	f	class:__anon5::Params	signature:()
+~Params	main-essfwi-damp.cpp	/^  ~Params();$/;"	p	class:__anon2::Params	file:	access:public	signature:()
+~Params	main-essfwi-damp.cpp	/^Params::~Params() {$/;"	f	class:__anon2::Params	signature:()
+~Params	main-fm-damp.cpp	/^  ~Params();$/;"	p	class:__anon4::Params	file:	access:public	signature:()
+~Params	main-fm-damp.cpp	/^Params::~Params() {$/;"	f	class:__anon4::Params	signature:()
+~Params	main-noise.cpp	/^  ~Params();$/;"	p	class:__anon3::Params	file:	access:public	signature:()
+~Params	main-noise.cpp	/^Params::~Params() {$/;"	f	class:__anon3::Params	signature:()
+~Params	main-norm.cpp	/^  ~Params();$/;"	p	class:__anon1::Params	file:	access:public	signature:()
+~Params	main-norm.cpp	/^Params::~Params() {$/;"	f	class:__anon1::Params	signature:()

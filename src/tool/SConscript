@@ -1,0 +1,59 @@
+import os
+Import('*')
+
+bin_list = [
+("fwi-damp", "main-fwi-damp.cpp"),
+("fti-damp", "main-fti-damp.cpp"),
+("essfwi-damp", "main-essfwi-damp.cpp"),
+("enfwi-damp", "main-enfwi-damp.cpp"),
+("norm", "main-norm.cpp"),
+("noise", "main-noise.cpp"),
+("test", "main-test.cpp"),
+("fm-damp", "main-fm-damp.cpp"),
+("fm-cg", "main-fm-cg.cpp"),
+("born", "main-born.cpp"),
+("bm", "main-bornmodeling.cpp"),
+("dotpt", "main-dotproduct.cpp"),
+("dpresult", "dotproduct.cpp"),
+           ]
+
+modules = """
+          """.split()
+
+modeling_objs = [
+  '#build/modeling/forwardmodeling.o',
+  '#build/modeling/sponge.o',
+  '#build/modeling/cpml.o',
+  '#build/modeling/fd4t10s-damp-zjh.o',
+  '#build/modeling/fd4t10s-zjh.o',
+  '#build/modeling/fd4t10s-zjh-born.o',
+  '#build/modeling/fd4t10s-nobndry.o',
+  '#build/rsf/fdutil.o',
+]
+
+if compiler_set == 'sw':
+  modeling_objs += ['#build/modeling/fd4t10s-damp-zjh-cg.o']
+  modeling_objs += ['#build/modeling/fd4t10s-slave.o']
+
+include_dir = [
+  '#' + dirs['rsf'],
+  '#' + dirs['common'],
+  '#' + dirs['modeling'],
+  '#' + dirs['fwi'],
+  '#' + dirs['essfwi'],
+  '#' + dirs['enfwi'],
+]
+
+depend_libpath = []
+depend_libs = ['enfwi', 'essfwi', 'fwi', 'common', 'rsf']
+
+# clone the environment from global env and make some modification of it
+myenv   = env.Clone(CPPPATH = include_dir)
+myenv.Append(LIBPATH = depend_libpath)
+myenv.Prepend(LIBS = depend_libs)
+
+# compile each binary
+for bin in bin_list:
+  bin_obj = myenv.StaticObject(bin[1])
+  bin_target = myenv.Program(target = bin[0], source = bin_obj + modeling_objs)
+  myenv.Install("#" + dirs['bin'], bin_target)

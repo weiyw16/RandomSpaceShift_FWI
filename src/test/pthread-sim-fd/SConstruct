@@ -1,0 +1,18 @@
+import os
+
+libs = ['pthread']
+
+env = Environment(
+    LIBS = libs,
+    CXXFLAGS = ['-g', '-O0'],
+    ENV = os.environ)
+
+hello = env.Program('hello', 'hello.cpp')
+fd = env.Program('fd', 'fd4t10s-zjh.cpp')
+
+run = env.Command('fd.log', fd, './fd')
+Depends(run, hello)
+
+# AlwaysBuild(run)
+# env.Alias('run', hello, hello[0].abspath)
+

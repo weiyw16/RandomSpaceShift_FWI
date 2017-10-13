@@ -1,0 +1,46 @@
+import os
+Import('*')
+
+lib = 'rsf'
+# these modules will compiled in to library
+lib_modules = """
+alloc.c
+c99.c
+error.c
+file.c
+getpar.c
+kiss_fft.c
+komplex.c
+simtab.c
+fdutil.c
+axa.c
+intsinc8.c
+inttable8.c
+mksinc.c
+sinc.c
+toeplitz.c
+butter.c
+Mbandpass.c
+triangle.c
+              """.split()
+
+############################### for library ###########################
+inc_path          = ['-isystem', '/home/export/online1/swyf/swcbw/softs/src/lapack-3.6.0/CBLAS/include', '/home/export/online1/swyf/swcbw/softs/src/lapack-3.6.0/CBLAS/include']
+if compiler_set == 'sw':
+  cflags = ['-O2', '-OPT:IEEE_arith=2']
+  inc_path = ['-isystem', os.environ['HOME'] + '/softs/src']
+else:
+  cflags = ['-O2']
+
+myenv    = Environment(CC = c_compiler,
+                       CFLAGS = cflags + inc_path,
+                       ENV = os.environ)
+
+# compile to object files
+lib_objs = myenv.StaticObject(lib_modules)
+
+# compile library
+lib_ar   = myenv.StaticLibrary(target = lib, source = lib_objs)
+
+# install
+myenv.Install("#" + dirs['lib'], lib_ar)

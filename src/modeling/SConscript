@@ -1,0 +1,64 @@
+import os
+Import('*')
+
+lib = "modeling"
+# these modules will compiled in to library
+lib_modules = """
+			  forwardmodeling.cpp
+				sponge.cpp
+				cpml.cpp
+			  fd4t10s-damp-zjh.c
+			  fd4t10s-zjh.c
+			  fd4t10s-zjh-born.c
+			  fd4t10s-nobndry.c
+              """.split()
+              
+if compiler_set == "sw":
+  lib_modules += ["fd4t10s-damp-zjh-cg.c"]
+
+extra_include_dir = [
+  '#' + dirs['rsf'],
+  '#' + dirs['common'],
+  # '#' + dirs['mdlib'],
+]
+
+new_c_compiler = c_compiler
+if compiler_set == 'sw':
+  new_c_compiler = ['swacc', '-OPT:IEEE_arith=2']#,'-priv', ]
+  #new_c_compiler = ['swacc']
+  cflags = ['-OPT:IEEE_arith=2','-DUSE_SWACC']
+else:
+  new_c_compiler = c_compiler
+  cflags = ['-DUSE_OPENMP']
+
+############################### for master ###########################
+#######################################################################
+# clone the environment from global env and make some modification of it
+myenv    = env.Clone(
+#    CC= new_c_compiler,
+    CPPPATH = extra_include_dir)
+
+myenv.Append(CCFLAGS = cflags)
+
+# compile to object files
+lib_objs = myenv.StaticObject(lib_modules)
+
+############################## for slave ##############################
+#######################################################################
+lib_modules_slave = """
+							fd4t10s-slave.c
+										""".split()
+
+myenv_slave = myenv.Clone(CC = ['sw5cc.new', '-slave', '-msimd']);
+#myenv_slave.Append(CFLAGS=['-S'])
+#lib_objs_slave = myenv_slave.StaticObject(target=['fd4t10s-slave.S'], source = lib_modules_slave)
+lib_objs_slave = myenv_slave.StaticObject(lib_modules_slave)
+
+############################### for Library ###########################
+#######################################################################
+# compile library
+lib_ar   = myenv.StaticLibrary(target = lib, source = lib_objs + lib_objs_slave)
+
+# install
+myenv.Install("#" + dirs['lib'], lib_ar)
+
